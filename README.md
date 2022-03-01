@@ -5,3 +5,5 @@ Make a branch to test new ideas
 The Master branch is for tournament ready code only.
 The v5.code files are not here. They may be added later.
 The other energy teams may be added later as well.
+Do not mess with the build files if you already have the code on your pc
+Download as zip is the proper way to gather the code
