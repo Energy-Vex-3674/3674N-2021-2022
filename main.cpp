@@ -760,7 +760,7 @@ void usercontrol(void) {
         // setting controls for lift
         if(Controller1.ButtonY.pressing()){
           // lift goes up
-          PLift.spin(reverse,80,pct);
+          PLift.spin(forward,80,pct);
         }
         else if(Controller1.ButtonRight.pressing()){
           //lift goes down
