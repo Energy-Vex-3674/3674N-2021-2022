@@ -528,11 +528,11 @@ void usercontrol(void) {
         }
         if(Controller1.ButtonB.pressing()){
           // lift goes up
-          PLift.spin(reverse,80,pct);
+          PLift.spin(forward,80,pct);
         }
         else if(Controller1.ButtonDown.pressing()){
           //lift goes down
-          PLift.spin(forward,80,pct);
+          PLift.spin(reverse,80,pct);
         }
         else{
           // lift is still.
@@ -601,11 +601,11 @@ void usercontrol(void) {
         }
         if(Controller1.ButtonB.pressing()){
           // lift goes up
-          PLift.spin(reverse,80,pct);
+          PLift.spin(forward,80,pct);
         }
         else if(Controller1.ButtonDown.pressing()){
           //lift goes down
-          PLift.spin(forward,80,pct);
+          PLift.spin(reverse,80,pct);
         }
         else{
           // lift is still.
@@ -755,7 +755,7 @@ void usercontrol(void) {
         RightA.spin(reverse,Controller1.Axis3.value()/2,percent);
         RightB.spin(reverse,Controller1.Axis3.value()/2,percent);
         if(Controller1.ButtonDown.pressing()){
-          PLift.spin(reverse,80,pct);
+          PLift.spin(forward,80,pct);
         }
         // setting controls for lift
         if(Controller1.ButtonY.pressing()){
@@ -764,7 +764,7 @@ void usercontrol(void) {
         }
         else if(Controller1.ButtonRight.pressing()){
           //lift goes down
-          PLift.spin(forward,80,pct);
+          PLift.spin(reverse,80,pct);
         }
         else{
           // lift is still.
@@ -834,11 +834,11 @@ void usercontrol(void) {
       
         if(Controller1.ButtonY.pressing()){
           // lift goes up
-          PLift.spin(reverse,80,pct);
+          PLift.spin(forward,80,pct);
         }
         else if(Controller1.ButtonRight.pressing()){
           //lift goes down
-          PLift.spin(forward,80,pct);
+          PLift.spin(reverse,80,pct);
         }
         else{
           // lift is still.
