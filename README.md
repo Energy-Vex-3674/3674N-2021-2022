@@ -1,14 +1,9 @@
 # Vex-3674N
-This contains the files for the 2021-2022 vex season robot by team 3674N of energy institute high school. This contains all files organized into folders.
-To use this code download and then copy and paste or import files into your project.
-Make a branch to test new ideas
-The Master branch is for tournament ready code only.
-The v5.code files are not here. They may be added later.
-The other energy teams may be added later as well.
-Do not mess with the build files if you already have the code on your pc
-Download as zip is the proper way to gather the code
-
-
+This contains the files for the 2021-2022 vex season robot by team 3674N of energy institute high school.
+This is the completed code for the Tipping point season of Vex robotics
+It is not perfect at all!
+pls use and learn if you want
+and feel free to improve on it
 
 Important to GPS:
 The v1.0 Game Manual Update included the following addition to Appendix B:
